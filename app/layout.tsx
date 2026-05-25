@@ -7,7 +7,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: 'EcoPack - Premium Sustainable Bagasse Packaging',
+  title: 'Greenloka - Premium Sustainable Bagasse Packaging',
   description: 'Eco-friendly bagasse food packaging solutions for restaurants, catering, and food delivery. 100% compostable, FDA-approved, and premium quality.',
   generator: 'v0.app',
   icons: {

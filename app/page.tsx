@@ -187,7 +187,7 @@ export default function Home() {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center gap-2">
               <Leaf className="w-6 h-6 text-primary" />
-              <span className="font-semibold text-lg">EcoPack</span>
+              <span className="font-semibold text-lg">Greenloka</span>
             </div>
 
             {/* Desktop Menu */}
@@ -339,7 +339,7 @@ export default function Home() {
       <section id="why" ref={benefitsSectionRef} className="py-20 bg-secondary/30">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="text-4xl font-bold mb-4 animate-slide-up">Why Choose EcoPack?</h2>
+            <h2 className="text-4xl font-bold mb-4 animate-slide-up">Why Choose Greenloka?</h2>
             <p className="text-lg text-muted-foreground animate-slide-up animation-delay-100">
               We&apos;re committed to sustainability without compromising quality
             </p>
@@ -470,7 +470,7 @@ export default function Home() {
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4 animate-slide-up">Loved by Our Customers</h2>
             <p className="text-lg text-muted-foreground animate-slide-up animation-delay-100">
-              See what industry leaders say about EcoPack
+              See what industry leaders say about Greenloka
             </p>
           </div>
 
@@ -544,7 +544,7 @@ export default function Home() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold mb-4 animate-slide-up">Ready to Transform Your Packaging?</h2>
           <p className="text-lg mb-8 text-white/90 animate-slide-up animation-delay-100">
-            Join hundreds of businesses making the sustainable choice with EcoPack
+            Join hundreds of businesses making the sustainable choice with Greenloka
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button
@@ -573,7 +573,7 @@ export default function Home() {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Leaf className="w-6 h-6" />
-                <span className="font-bold text-lg">EcoPack</span>
+                <span className="font-bold text-lg">Greenloka</span>
               </div>
               <p className="text-white/70 text-sm">
                 Premium sustainable bagasse packaging for forward-thinking brands.
@@ -608,7 +608,7 @@ export default function Home() {
           </div>
           <div className="border-t border-white/20 pt-8">
             <p className="text-center text-sm text-white/70">
-              © 2024 EcoPack. All rights reserved. | Committed to a sustainable future
+              © 2026 Greenloka. All rights reserved. | Committed to a sustainable future
             </p>
           </div>
         </div>
