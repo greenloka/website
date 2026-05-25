@@ -550,7 +550,7 @@ export default function ProductsPageContent() {
           </div>
           <div className="border-t border-white/20 pt-8">
             <p className="text-center text-sm text-white/70">
-              © 2026 Greenloka. All rights reserved. Test | We are committed to a sustainable future
+              © 2026 Greenloka. All rights reserved. Testing 2.1.1 | We are committed to a sustainable future
             </p>
           </div>
         </div>
