@@ -262,14 +262,14 @@ export default function Home() {
               >
                 <Link href="/products">Explore Products</Link>
               </Button>
-              <Button
+              {/* <Button
                 size="lg"
                 variant="outline"
                 className="text-base transition-smooth hover-lift animate-scale-in animation-delay-300"
                 onClick={() => scrollToSection('cta')}
               >
                 Request Sample
-              </Button>
+              </Button> */}
             </div>
           </div>
 
@@ -465,7 +465,7 @@ export default function Home() {
       </section>
 
       {/* Testimonials Section */}
-      <section ref={testimonialsRef} className="py-20 bg-white scroll-reveal">
+      {/* <section ref={testimonialsRef} className="py-20 bg-white scroll-reveal">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-4xl font-bold mb-4 animate-slide-up">Loved by Our Customers</h2>
@@ -502,7 +502,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* FAQ Section */}
       <section id="faq" ref={faqRef} className="py-20 bg-secondary/30 scroll-reveal">
@@ -557,7 +557,7 @@ export default function Home() {
             <Button
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white/10 transition-smooth hover-lift animate-scale-in animation-delay-300"
+              className="border-white text-black hover:bg-white/10 transition-smooth hover-lift animate-scale-in animation-delay-300"
               onClick={() => scrollToSection('about')}
             >
               Contact Sales
@@ -593,18 +593,18 @@ export default function Home() {
               <ul className="space-y-2 text-sm text-white/70">
                 <li><a href="#" className="hover:text-white">About Us</a></li>
                 <li><a href="#" className="hover:text-white">Sustainability</a></li>
-                <li><a href="#" className="hover:text-white">Blog</a></li>
+                {/* <li><a href="#" className="hover:text-white">Blog</a></li> */}
                 <li><a href="#" className="hover:text-white">Contact</a></li>
               </ul>
             </div>
-            <div>
+            {/* <div>
               <h4 className="font-semibold mb-4">Legal</h4>
               <ul className="space-y-2 text-sm text-white/70">
                 <li><a href="#" className="hover:text-white">Privacy Policy</a></li>
                 <li><a href="#" className="hover:text-white">Terms of Service</a></li>
                 <li><a href="#" className="hover:text-white">Certifications</a></li>
               </ul>
-            </div>
+            </div> */}
           </div>
           <div className="border-t border-white/20 pt-8">
             <p className="text-center text-sm text-white/70">
