@@ -226,8 +226,7 @@ export default function ProductsPageContent() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <Link href="/" className="flex items-center gap-2">
-              <Leaf className="w-6 h-6 text-primary" />
-              <span className="font-semibold text-lg">Greenloka</span>
+              <img src="/logo/greenloka_logo.png" alt="Greenloka" className="h-8 w-auto" />
             </Link>
 
             {/* Desktop Menu */}
@@ -250,9 +249,9 @@ export default function ProductsPageContent() {
             </div>
 
             <div className="flex items-center gap-4">
-              <Button className="hidden md:inline-flex" size="sm">
+              {/* <Button className="hidden md:inline-flex" size="sm">
                 Get Quote
-              </Button>
+              </Button> */}
 
               {/* Mobile Menu Button */}
               <button
@@ -282,9 +281,9 @@ export default function ProductsPageContent() {
               <a href="/#faq" className="block py-2 text-sm hover:text-primary">
                 FAQ
               </a>
-              <Button className="w-full mt-2" size="sm">
+              {/* <Button className="w-full mt-2" size="sm">
                 Get Quote
-              </Button>
+              </Button> */}
             </div>
           )}
         </div>
@@ -514,8 +513,7 @@ export default function ProductsPageContent() {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <Leaf className="w-6 h-6" />
-                <span className="font-bold text-lg">Greenloka</span>
+                <img src="/logo/greenloka_logo.png" alt="Greenloka" className="h-32 w-auto" />
               </div>
               <p className="text-white/70 text-sm">
                 Premium sustainable bagasse packaging for forward-thinking brands.

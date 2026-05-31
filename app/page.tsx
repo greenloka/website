@@ -185,10 +185,9 @@ export default function Home() {
       <nav className="sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-border">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
-            <div className="flex items-center gap-2">
-              <Leaf className="w-6 h-6 text-primary" />
-              <span className="font-semibold text-lg">Greenloka</span>
-            </div>
+            <Link href="/" className="flex items-center gap-2">
+              <img src="/logo/greenloka_logo.png" alt="Greenloka" className="h-8 w-auto" />
+            </Link>
 
             {/* Desktop Menu */}
             <div className="hidden md:flex gap-8">
@@ -207,9 +206,9 @@ export default function Home() {
             </div>
 
             <div className="flex items-center gap-4">
-              <Button className="hidden md:inline-flex" size="sm" onClick={() => scrollToSection('cta')}>
+              {/* <Button className="hidden md:inline-flex" size="sm" onClick={() => scrollToSection('cta')}>
                 Get Quote
-              </Button>
+              </Button> */}
 
               {/* Mobile Menu Button */}
               <button
@@ -236,9 +235,9 @@ export default function Home() {
               <a href="#faq" className="block py-2 text-sm hover:text-primary">
                 FAQ
               </a>
-              <Button className="w-full mt-2" size="sm" onClick={() => scrollToSection('cta')}>
+              {/* <Button className="w-full mt-2" size="sm" onClick={() => scrollToSection('cta')}>
                 Get Quote
-              </Button>
+              </Button> */}
             </div>
           )}
         </div>
@@ -572,8 +571,7 @@ export default function Home() {
           <div className="grid md:grid-cols-4 gap-8 mb-8">
             <div>
               <div className="flex items-center gap-2 mb-4">
-                <Leaf className="w-6 h-6" />
-                <span className="font-bold text-lg">Greenloka</span>
+                <img src="/logo/greenloka_logo.png" alt="Greenloka" className="h-32 w-auto" />
               </div>
               <p className="text-white/70 text-sm">
                 Premium sustainable bagasse packaging for forward-thinking brands.
